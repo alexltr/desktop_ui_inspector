@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Desktop UI Inspector 2.2.5. Windows / Python 3.9+.
+"""Desktop UI Inspector 2.2.6. Windows / Python 3.9+.
 Install: python -m pip install pywinauto Pillow pywin32
 All automation objects stay in one persistent MTA worker.
 """
@@ -18,7 +18,7 @@ from datetime import datetime
 import tkinter as tk
 from tkinter import ttk, filedialog
 
-VERSION = '2.2.5'
+VERSION = '2.2.6'
 APP = 'Desktop UI Inspector'
 OUT_DIR = Path(os.environ.get('LOCALAPPDATA', str(Path.home()))) / 'DesktopUIInspector' / 'captures'
 IS_WINDOWS = sys.platform == 'win32'
